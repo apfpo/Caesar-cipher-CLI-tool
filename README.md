@@ -6,3 +6,5 @@
 3. -o, --output [строка] - имя файла, в который необходимо записать результат зашифрования или расшифрования
 4. -a, --action [encode/decode]- выбор действия: зашифровать или расшифровать
 
+Пример:
+node my_caesar_cli --action encode --shift 7 --input input.txt --output output.txt
